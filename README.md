@@ -29,3 +29,5 @@ _Step by step to start with Databricks_
 ![Register Databricks](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/img/databricks%20register.png)
 
 ![Get Started with Community Edition](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/img/get%20started%20with%20community%20edition.jpg)
+
+- Congrats, your Databricks ready to cook. Now we can upload our data 
