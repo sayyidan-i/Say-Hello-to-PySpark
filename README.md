@@ -18,7 +18,7 @@
       - [6. What was the first item after the client became a member?](#6-what-was-the-first-item-after-the-client-became-a-member)
       - [7. What was the item before the client became a member?](#7-what-was-the-item-before-the-client-became-a-member)
       - [8. How much money and articles did a customer buy before becoming a member?](#8-how-much-money-and-articles-did-a-customer-buy-before-becoming-a-member)
-      - [9 If each $1 is worth 10 points and when is sushi you get double points? How many points each customer has?](#9-if-each-1-is-worth-10-points-and-when-is-sushi-you-get-double-points-how-many-points-each-customer-has)
+      - [9. If each $1 is worth 10 points and when is sushi you get double points? How many points each customer has?](#9-if-each-1-is-worth-10-points-and-when-is-sushi-you-get-double-points-how-many-points-each-customer-has)
       - [10. On the first week after a client is a member (including the join date), it earns double points, not only on Sushi. How many points will customers A and B have at the end of January?](#10-on-the-first-week-after-a-client-is-a-member-including-the-join-date-it-earns-double-points-not-only-on-sushi-how-many-points-will-customers-a-and-b-have-at-the-end-of-january)
 
 
@@ -398,7 +398,7 @@ display(Q8)
 ```
 
 
-#### 9 If each $1 is worth 10 points and when is sushi you get double points? How many points each customer has?
+#### 9. If each $1 is worth 10 points and when is sushi you get double points? How many points each customer has?
 To conquer this question, we can join our sales table with the menu. After that, we can create a new column called "points" with the product name sushi to get double points. Finally, we can group data by customer_id, sum the points table and order by points column.
 
 ```
