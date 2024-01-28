@@ -16,7 +16,7 @@ Welcome to "Say Hello to PySpark," your go-to resource for diving into the world
 ## 1. Get to Know with Data
 This project will guide you through gaining insights from data using PySpark, with a focus on the data below.
 
-![Data Diagram](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/say%20hello%20to%20pyspark.png)
+![Data Diagram](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/img/say%20hello%20to%20pyspark.png)
 
 
 ## 2. Use Databricks as our Tool
@@ -25,3 +25,7 @@ Let's streamline the process by utilizing Databricks as our tool of choice. Inst
 _Step by step to start with Databricks_
 - Register your self into Databricks community edition [here](https://www.databricks.com/try-databricks) because it is freee! even it is limit still enough for our project.
 - After you fill your data, make sure to click `Get Started with Community Edition`
+
+![Register Databricks](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/img/databricks%20register.png)
+
+![Get Started with Community Edition](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/img/get%20started%20with%20community%20edition.jpg)
