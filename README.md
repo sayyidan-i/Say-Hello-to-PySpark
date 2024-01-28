@@ -33,6 +33,7 @@ _Step by step to start with Databricks_
 - Your Databricks workspace is now set up and ready to go. Proceed to upload our [data](https://github.com/sayyidan-i/Say-Hello-to-PySpark/tree/main/data) by selecting catalog > create table > write directory that you want, for example `first_project` and drop our data.
 
 - Now our data is saved in `/FileStore/tables/first_project, create a new notebook and run the following command to list them.
+
 '''
 %fs ls /FileStore/tables/first_project
 '''
