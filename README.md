@@ -23,11 +23,19 @@ This project will guide you through gaining insights from data using PySpark, wi
 Let's streamline the process by utilizing Databricks as our tool of choice. Installing Spark on a local machine can be complex, so we'll leverage Databricks for a seamless start. This tool comes pre-configured, allowing you to dive into your work immediately
 
 _Step by step to start with Databricks_
-- Register your self into Databricks community edition [here](https://www.databricks.com/try-databricks) because it is freee! even it is limit still enough for our project.
-- After you fill your data, make sure to click `Get Started with Community Edition`
+- Navigate to Databricks [Community Edition](https://www.databricks.com/try-databricks) and sign up—it's free! Despite limitations, it provides ample resources for our project.
+- After entering your information, click, make sure to click `Get Started with Community Edition`
 
 ![Register Databricks](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/img/databricks%20register.png)
 
 ![Get Started with Community Edition](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/img/get%20started%20with%20community%20edition.jpg)
 
-- Congrats, your Databricks ready to cook. Now we can upload our data 
+- Your Databricks workspace is now set up and ready to go. Proceed to upload our [data](https://github.com/sayyidan-i/Say-Hello-to-PySpark/tree/main/data) by selecting catalog > create table > write directory that you want, for example `first_project` and drop our data.
+
+- Now our data is saved in `/FileStore/tables/first_project, create a new notebook and run the following command to list them.
+'''
+%fs ls /FileStore/tables/first_project
+'''
+
+## 2. Starting PySpark
+You must be wondering
