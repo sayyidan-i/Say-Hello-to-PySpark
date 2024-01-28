@@ -14,3 +14,4 @@ Welcome to "Say Hello to PySpark," your go-to resource for diving into the world
 
 ---
 # 1. Get to Know with Data
+![Data Diagram](https://github.com/sayyidan-i/Say-Hello-to-PySpark/blob/main/say%20hello%20to%20pyspark.png)
